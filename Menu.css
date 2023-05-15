@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #090000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4ac005;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+nav ul li a:hover{
+    background-color: #d07b04;
+    color:#1feacf;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+/* Section Styles */
+section {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#menu {
+    background-image: url('IMAGES/menubg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    box-shadow: 0px 0px 100px rgb(255, 164, 18);
+}
+
+h1 {
+    color: #d07b04;
+    text-shadow: 2px 2px #000000;
+}
+
+.item {
+    background-color: #d1fcf9;
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px rgb(14, 226, 42);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    max-width: 300px;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 100%;
+    max-height: 50%;
+}
+
+h3 {
+    color: #dd8e05;
+    font-size: 24px;
+}
+
+p {
+    color: #57c20f;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.price {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color:#04868d
+}
+
+.order {
+    background-color: #2f2e2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.order:hover {
+    background-color: #28a007;
+    color: #f9f1f1;
+    border: 2px solid #333;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons a {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #e3940b;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+	color: #1feacf; 
+}
